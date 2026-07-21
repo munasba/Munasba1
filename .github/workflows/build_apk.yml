@@ -77,8 +77,7 @@ jobs:
       - name: Install Flutter dependencies
         run: flutter pub get
 
-      - name: Generate localizations
-        run: flutter gen-l10n
+      
 
       - name: Analyze (non-blocking)
         run: flutter analyze || true
