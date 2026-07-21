@@ -46,5 +46,5 @@ flutter {
 dependencies {
     // Required because compileOptions.isCoreLibraryDesugaringEnabled = true above
     // (needed by flutter_local_notifications / timezone on minSdk < 26).
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.3")
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }
