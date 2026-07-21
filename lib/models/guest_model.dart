@@ -1,5 +1,5 @@
 import 'dart:convert';
-
+import 'package:flutter/material.dart';
 enum GuestStatus {
   invited,
   confirmed,
@@ -151,4 +151,3 @@ class GuestModel {
   }
 }
 
-import 'package:flutter/material.dart';
